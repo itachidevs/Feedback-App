@@ -1,0 +1,30 @@
+.feedback-container {
+  background-color: #ffffff;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  width: 90%;
+}
+.feedback-container-heading {
+  color: #0f172a;
+  font-family: Roboto;
+  font-size: 1rem;
+  text-align: center;
+}
+.emojis-container {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  list-style-position: outside;
+  gap: 1rem;
+}
+@media screen and (min-width: 768px) {
+  .feedback-container-heading {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,35 @@
+.emojiItem-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 25%;
+  list-style-position: outside;
+  list-style-type: none;
+}
+.emoji {
+  width: 50%;
+}
+.emoji-description {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 1rem;
+  font-weight: 400;
+}
+@media screen and (max-width: 575px) {
+  .emojiItem-container {
+    width: 100px;
+  }
+  .emoji-description {
+    font-size: 0.7rem;
+  }
+  .emoji {
+    width: 40px;
+    height: 40px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .emoji-description {
+    font-size: 2rem;
+  }
+}

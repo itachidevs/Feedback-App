@@ -1,0 +1,9 @@
+/* Write your CSS code here. */
+.container {
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 30px;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+}
